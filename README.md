@@ -1,13 +1,9 @@
-![python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/royalphax/credit-agricole-importer?color=brightgreen)
-![GitHub Repo stars](https://img.shields.io/github/stars/royalphax/credit-agricole-importer?color=yellow)
-![GitHub issues](https://img.shields.io/github/issues/royalphax/credit-agricole-importer?color=yellow)
 # Credit Agricole Importer for FireflyIII
 
-Automatic import of [Credit Agricole](https://www.credit-agricole.fr/) accounts and transactions into [FireflyIII](https://github.com/firefly-iii/firefly-iii) personal finance manager, 
-made with use of [python-creditagricole-particuliers](https://github.com/dmachard/python-creditagricole-particuliers).
+Automatic import of [Credit Agricole](https://www.credit-agricole.fr/) accounts and transactions into [FireflyIII](https://github.com/firefly-iii/firefly-iii) personal finance manager, made with use of [python-creditagricole-particuliers](https://github.com/dmachard/python-creditagricole-particuliers).
 
 ## Features
+
 - Auto import choosen accounts
 - Auto import transactions from customizable period
 - Limit number of transactions to import
@@ -19,23 +15,17 @@ _*These features are already features of FireflyIII thanks to [automated rules](
 ## How to install
 
 ### Install requirements
-* Latest version of the code :
-```
+
+```bash
 cd /path/you/want
-git clone https://github.com/Royalphax/credit-agricole-importer.git
+git clone https://github.com/Aohzan/credit-agricole-importer.git
 cd credit-agricole-importer
 pip install -r requirements.txt
 ```
-* or Stable and working release :
-```
-cd /path/you/want
-wget https://github.com/Royalphax/credit-agricole-importer/archive/refs/tags/v0.2.0.zip
-unzip v0.2.0.zip
-cd credit-agricole-importer-0.2.0
-pip install -r requirements.txt
-```
+
 ### Usage
-```
+
+```bash
 python main.py
 ```
 
@@ -63,4 +53,8 @@ Of course yes, If you have any improvement ideas, or you want to implement new f
 
 ## Donate ☕
 
-If you found this project useful, you can thank me by buying me a coffee [here](https://www.paypal.com/donate/?hosted_button_id=JK6FX89RB8K5Y). Enter your email address and I will send you a picture of the coffee you bought from me!
+You can use Github Sponsor, thank you
+
+## Credits
+
+Thanks to <https://github.com/Royalphax/credit-agricole-importer>
